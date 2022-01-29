@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/Vegann/valorant_daily_store/compare/v1.0.0...v1.0.1) (2022-01-29)
+
+
+### Features
+
+* bump version in Gemfile.lock on release ([30ea1eb](https://github.com/Vegann/valorant_daily_store/commits/30ea1eb7886b2eb5f27ed2f9053af8d47afbf134))
+* merge 2 workflows ([bd9cba1](https://github.com/Vegann/valorant_daily_store/commits/bd9cba1b42c6b753db05ee4520a8587dc244aafd))
+
+
+### Bug Fixes
+
+* gem version updater ([e15a281](https://github.com/Vegann/valorant_daily_store/commits/e15a281da104261ccbba96ec42b11210a8fbad8a))
+* remove precommit hook from standard-version ([2f5be5e](https://github.com/Vegann/valorant_daily_store/commits/2f5be5eebe994a2703c119ed16cf3267e9cd5793))
+* version in Gemfile.lock was not updated ([f5717fd](https://github.com/Vegann/valorant_daily_store/commits/f5717fde33ca1fb7a15d8b02729a4cbb97e2d3d6))
+
 ## 1.0.0 (2022-01-29)
 
 
