@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    valorant_daily_store (0.1.0)
+    valorant_daily_store (1.0.0)
       faraday (~> 2.1)
       faraday-cookie_jar (~> 0.0.7)
       thor (~> 1.2.1)

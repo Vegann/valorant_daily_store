@@ -6,6 +6,11 @@
   "directories": {
     "lib": "lib"
   },
+  "standard-version": {
+    "scripts": {
+      "precommit": "bundle install"
+    }
+  },
   "scripts": {
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
