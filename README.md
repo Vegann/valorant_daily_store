@@ -1,8 +1,6 @@
-# ValorantDailyStore
+# Valorant Daily Store
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/valorant_daily_store`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem will let you see your daily store without opening the game
 
 ## Installation
 
@@ -22,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```sh
+valorant_daily_store get -u username -p password -l language -r region
+```
 
 ## Development
 
