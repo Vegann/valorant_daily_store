@@ -1,5 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'valorant_daily_store/cli'
-
-ValorantDailyStore::CLI.start(ARGV)
