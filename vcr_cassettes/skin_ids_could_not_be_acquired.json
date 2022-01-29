@@ -1,0 +1,231 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://auth.riotgames.com/api/v1/authorization",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"nonce\":\"1\",\"client_id\":\"play-valorant-web-prod\",\"redirect_uri\":\"https://playvalorant.com/opt_in\",\"response_type\":\"token id_token\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "RiotClient/43.0.1.4195386.4190634 rso-auth (Windows;10;;Professional, x64)"
+          ],
+          "Content-Type": ["application/json"],
+          "Accept-Encoding": ["gzip;q=1.0,deflate;q=0.6,identity;q=0.3"],
+          "Accept": ["*/*"]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": ["Fri, 28 Jan 2022 23:25:11 GMT"],
+          "Content-Type": ["application/json; charset=utf-8"],
+          "Content-Length": ["31"],
+          "Connection": ["keep-alive"],
+          "Cache-Control": [
+            "no-store, no-cache, must-revalidate, proxy-revalidate"
+          ],
+          "Etag": ["W/\"1f-YDrzkZDFynr/UugAD0CjFX4MZHA\""],
+          "Expires": ["0"],
+          "Pragma": ["no-cache"],
+          "Set-Cookie": [
+            "__cf_bm=M4f7g4Hwzhombr7Q.GsEcI2..CIMgwvA_.hny0Ej4QQ-1643412311-0-AQzWbh3zeThanPzR9icAb2/WRoZtaMHe3G5SsASPy/nj478d5NVPieqtzH9qEFo3MOxhiYON4jB8VEjB5GQVBCY=; path=/; expires=Fri, 28-Jan-22 23:55:11 GMT; domain=.riotgames.com; HttpOnly; Secure; SameSite=None",
+            "asid=xxxxx; Path=/; HttpOnly; Secure; SameSite=Strict",
+            "clid=ec1; Path=/; HttpOnly; Secure",
+            "tdid=xxxxx; Max-Age=31536000; Domain=riotgames.com; Path=/; Expires=Sat, 28 Jan 2023 23:25:11 GMT; HttpOnly; Secure"
+          ],
+          "Surrogate-Control": ["no-store"],
+          "Vary": ["Accept-Encoding"],
+          "X-Content-Type-Options": ["nosniff"],
+          "X-Download-Options": ["noopen"],
+          "Cf-Cache-Status": ["DYNAMIC"],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "X-Riotgames-Cdn": ["Cloudflare"],
+          "Server": ["cloudflare"],
+          "Cf-Ray": ["6d4dfa829be4cc93-WAW"]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"type\":\"auth\",\"country\":\"pol\"}"
+        }
+      },
+      "recorded_at": "Fri, 28 Jan 2022 23:25:12 GMT"
+    },
+    {
+      "request": {
+        "method": "put",
+        "uri": "https://auth.riotgames.com/api/v1/authorization",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"type\":\"auth\",\"username\":\"xxxxx\",\"password\":\"xxxxx\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "RiotClient/43.0.1.4195386.4190634 rso-auth (Windows;10;;Professional, x64)"
+          ],
+          "Cookie": [
+            "__cf_bm=M4f7g4Hwzhombr7Q.GsEcI2..CIMgwvA_.hny0Ej4QQ-1643412311-0-AQzWbh3zeThanPzR9icAb2/WRoZtaMHe3G5SsASPy/nj478d5NVPieqtzH9qEFo3MOxhiYON4jB8VEjB5GQVBCY=; asid=xxxxx; clid=ec1; tdid=xxxxx"
+          ],
+          "Content-Type": ["application/json"],
+          "Accept-Encoding": ["gzip;q=1.0,deflate;q=0.6,identity;q=0.3"],
+          "Accept": ["*/*"]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": ["Fri, 28 Jan 2022 23:25:12 GMT"],
+          "Content-Type": ["application/json; charset=utf-8"],
+          "Transfer-Encoding": ["chunked"],
+          "Connection": ["keep-alive"],
+          "Cache-Control": [
+            "no-store, no-cache, must-revalidate, proxy-revalidate"
+          ],
+          "Etag": ["W/\"577-6lxnlkEmmg2+CbF/hy4hEgbhPqM\""],
+          "Expires": ["0"],
+          "Pragma": ["no-cache"],
+          "Set-Cookie": [
+            "asid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure",
+            "clid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure",
+            "clid=ec1; Path=/; HttpOnly; Secure",
+            "csid=xxxxx; Path=/; Secure; SameSite=None",
+            "ssid=xxxxx; Path=/; HttpOnly; Secure; SameSite=None",
+            "sub=xxxxx; Path=/; Secure",
+            "tdid=xxxxx; Max-Age=31536000; Domain=riotgames.com; Path=/; Expires=Sat, 28 Jan 2023 23:25:11 GMT; HttpOnly; Secure"
+          ],
+          "Surrogate-Control": ["no-store"],
+          "Vary": ["Accept-Encoding"],
+          "X-Content-Type-Options": ["nosniff"],
+          "X-Download-Options": ["noopen"],
+          "Cf-Cache-Status": ["DYNAMIC"],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "X-Riotgames-Cdn": ["Cloudflare"],
+          "Server": ["cloudflare"],
+          "Cf-Ray": ["6d4dfa83bcab0030-WAW"]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"type\":\"response\",\"response\":{\"mode\":\"fragment\",\"parameters\":{\"uri\":\"https://playvalorant.com/opt_in#access_token=xxxxx&scope=openid&iss=https%3A%2F%2Fauth.riotgames.com&id_token=xxxxx&token_type=Bearer&session_state=yRySr1jVDGX8RwPQM317R_GP7UAFNjqB5CeYjKH7W58.wD4NWOlrASbfPZZQTWCqHg&expires_in=3600\"}},\"country\":\"pol\"}"
+        }
+      },
+      "recorded_at": "Fri, 28 Jan 2022 23:25:13 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://entitlements.auth.riotgames.com/api/token/v1",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{}"
+        },
+        "headers": {
+          "Authorization": ["Bearer xxxxx"],
+          "User-Agent": [
+            "RiotClient/43.0.1.4195386.4190634 rso-auth (Windows;10;;Professional, x64)"
+          ],
+          "Content-Type": ["application/json"],
+          "Accept-Encoding": ["gzip;q=1.0,deflate;q=0.6,identity;q=0.3"],
+          "Accept": ["*/*"]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": ["Fri, 28 Jan 2022 23:25:12 GMT"],
+          "Content-Type": ["application/json"],
+          "Content-Length": ["534"],
+          "Connection": ["keep-alive"],
+          "Access-Control-Allow-Origin": ["*"],
+          "Vary": ["Accept-Encoding"],
+          "Cf-Cache-Status": ["DYNAMIC"],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "X-Riotgames-Cdn": ["Cloudflare"],
+          "Set-Cookie": [
+            "__cf_bm=zU6db5_C.24bQUJJvR13mnjurGH24lelrSOHg_jqalw-1643412312-0-AYVgFoAZFmMif2eN7jZtmN3JHb/7F66VXoUneFPiSVdrnyFNCyZcKPMFph4VKm1EsERMIM97N1+DVBN8v9n3/NY=; path=/; expires=Fri, 28-Jan-22 23:55:12 GMT; domain=.riotgames.com; HttpOnly; Secure; SameSite=None"
+          ],
+          "Server": ["cloudflare"],
+          "Cf-Ray": ["6d4dfa8baf095037-WAW"]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"entitlements_token\":\"xxxxx\"}"
+        }
+      },
+      "recorded_at": "Fri, 28 Jan 2022 23:25:13 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://auth.riotgames.com/userinfo",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "RiotClient/43.0.1.4195386.4190634 rso-auth (Windows;10;;Professional, x64)"
+          ],
+          "Authorization": ["Bearer xxxxx"],
+          "Cookie": [
+            "__cf_bm=M4f7g4Hwzhombr7Q.GsEcI2..CIMgwvA_.hny0Ej4QQ-1643412311-0-AQzWbh3zeThanPzR9icAb2/WRoZtaMHe3G5SsASPy/nj478d5NVPieqtzH9qEFo3MOxhiYON4jB8VEjB5GQVBCY=; clid=ec1; csid=xxxxx; ssid=xxxxx; tdid=xxxxx"
+          ],
+          "Accept-Encoding": ["gzip;q=1.0,deflate;q=0.6,identity;q=0.3"],
+          "Accept": ["*/*"]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": ["Fri, 28 Jan 2022 23:25:13 GMT"],
+          "Content-Type": ["application/json; charset=utf-8"],
+          "Transfer-Encoding": ["chunked"],
+          "Connection": ["keep-alive"],
+          "Cache-Control": [
+            "no-store, no-cache, must-revalidate, proxy-revalidate"
+          ],
+          "Etag": ["W/\"42-lDJ5nQQp67c1ZHfrJE1Jx2SByLM\""],
+          "Expires": ["0"],
+          "Pragma": ["no-cache"],
+          "Surrogate-Control": ["no-store"],
+          "Vary": ["Accept-Encoding"],
+          "X-Content-Type-Options": ["nosniff"],
+          "X-Download-Options": ["noopen"],
+          "X-Fapi-Interaction-Id": ["d69054dc-2da8-4f32-9b63-b01fc67f5444"],
+          "Cf-Cache-Status": ["DYNAMIC"],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "X-Riotgames-Cdn": ["Cloudflare"],
+          "Server": ["cloudflare"],
+          "Cf-Ray": ["6d4dfa8c6cd3f2a0-WAW"]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"sub\":\"xxxxx\",\"jti\":\"_QVmGR2ZTII\"}"
+        }
+      },
+      "recorded_at": "Fri, 28 Jan 2022 23:25:14 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.0.0"
+}

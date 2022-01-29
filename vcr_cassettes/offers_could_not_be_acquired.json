@@ -1,0 +1,274 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://auth.riotgames.com/api/v1/authorization",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"nonce\":\"1\",\"client_id\":\"play-valorant-web-prod\",\"redirect_uri\":\"https://playvalorant.com/opt_in\",\"response_type\":\"token id_token\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "RiotClient/43.0.1.4195386.4190634 rso-auth (Windows;10;;Professional, x64)"
+          ],
+          "Content-Type": ["application/json"],
+          "Accept-Encoding": ["gzip;q=1.0,deflate;q=0.6,identity;q=0.3"],
+          "Accept": ["*/*"]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": ["Fri, 28 Jan 2022 23:25:11 GMT"],
+          "Content-Type": ["application/json; charset=utf-8"],
+          "Content-Length": ["31"],
+          "Connection": ["keep-alive"],
+          "Cache-Control": [
+            "no-store, no-cache, must-revalidate, proxy-revalidate"
+          ],
+          "Etag": ["W/\"1f-YDrzkZDFynr/UugAD0CjFX4MZHA\""],
+          "Expires": ["0"],
+          "Pragma": ["no-cache"],
+          "Set-Cookie": [
+            "__cf_bm=M4f7g4Hwzhombr7Q.GsEcI2..CIMgwvA_.hny0Ej4QQ-1643412311-0-AQzWbh3zeThanPzR9icAb2/WRoZtaMHe3G5SsASPy/nj478d5NVPieqtzH9qEFo3MOxhiYON4jB8VEjB5GQVBCY=; path=/; expires=Fri, 28-Jan-22 23:55:11 GMT; domain=.riotgames.com; HttpOnly; Secure; SameSite=None",
+            "asid=xxxxx; Path=/; HttpOnly; Secure; SameSite=Strict",
+            "clid=ec1; Path=/; HttpOnly; Secure",
+            "tdid=xxxxx; Max-Age=31536000; Domain=riotgames.com; Path=/; Expires=Sat, 28 Jan 2023 23:25:11 GMT; HttpOnly; Secure"
+          ],
+          "Surrogate-Control": ["no-store"],
+          "Vary": ["Accept-Encoding"],
+          "X-Content-Type-Options": ["nosniff"],
+          "X-Download-Options": ["noopen"],
+          "Cf-Cache-Status": ["DYNAMIC"],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "X-Riotgames-Cdn": ["Cloudflare"],
+          "Server": ["cloudflare"],
+          "Cf-Ray": ["6d4dfa829be4cc93-WAW"]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"type\":\"auth\",\"country\":\"pol\"}"
+        }
+      },
+      "recorded_at": "Fri, 28 Jan 2022 23:25:12 GMT"
+    },
+    {
+      "request": {
+        "method": "put",
+        "uri": "https://auth.riotgames.com/api/v1/authorization",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"type\":\"auth\",\"username\":\"xxxxx\",\"password\":\"xxxxx\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "RiotClient/43.0.1.4195386.4190634 rso-auth (Windows;10;;Professional, x64)"
+          ],
+          "Cookie": [
+            "__cf_bm=M4f7g4Hwzhombr7Q.GsEcI2..CIMgwvA_.hny0Ej4QQ-1643412311-0-AQzWbh3zeThanPzR9icAb2/WRoZtaMHe3G5SsASPy/nj478d5NVPieqtzH9qEFo3MOxhiYON4jB8VEjB5GQVBCY=; asid=xxxxx; clid=ec1; tdid=xxxxx"
+          ],
+          "Content-Type": ["application/json"],
+          "Accept-Encoding": ["gzip;q=1.0,deflate;q=0.6,identity;q=0.3"],
+          "Accept": ["*/*"]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": ["Fri, 28 Jan 2022 23:25:12 GMT"],
+          "Content-Type": ["application/json; charset=utf-8"],
+          "Transfer-Encoding": ["chunked"],
+          "Connection": ["keep-alive"],
+          "Cache-Control": [
+            "no-store, no-cache, must-revalidate, proxy-revalidate"
+          ],
+          "Etag": ["W/\"577-6lxnlkEmmg2+CbF/hy4hEgbhPqM\""],
+          "Expires": ["0"],
+          "Pragma": ["no-cache"],
+          "Set-Cookie": [
+            "asid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure",
+            "clid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure",
+            "clid=ec1; Path=/; HttpOnly; Secure",
+            "csid=xxxxx; Path=/; Secure; SameSite=None",
+            "ssid=xxxxx; Path=/; HttpOnly; Secure; SameSite=None",
+            "sub=xxxxx; Path=/; Secure",
+            "tdid=xxxxx; Max-Age=31536000; Domain=riotgames.com; Path=/; Expires=Sat, 28 Jan 2023 23:25:11 GMT; HttpOnly; Secure"
+          ],
+          "Surrogate-Control": ["no-store"],
+          "Vary": ["Accept-Encoding"],
+          "X-Content-Type-Options": ["nosniff"],
+          "X-Download-Options": ["noopen"],
+          "Cf-Cache-Status": ["DYNAMIC"],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "X-Riotgames-Cdn": ["Cloudflare"],
+          "Server": ["cloudflare"],
+          "Cf-Ray": ["6d4dfa83bcab0030-WAW"]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"type\":\"response\",\"response\":{\"mode\":\"fragment\",\"parameters\":{\"uri\":\"https://playvalorant.com/opt_in#access_token=xxxxx&scope=openid&iss=https%3A%2F%2Fauth.riotgames.com&id_token=xxxxx&token_type=Bearer&session_state=yRySr1jVDGX8RwPQM317R_GP7UAFNjqB5CeYjKH7W58.wD4NWOlrASbfPZZQTWCqHg&expires_in=3600\"}},\"country\":\"pol\"}"
+        }
+      },
+      "recorded_at": "Fri, 28 Jan 2022 23:25:13 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://entitlements.auth.riotgames.com/api/token/v1",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{}"
+        },
+        "headers": {
+          "Authorization": ["Bearer xxxxx"],
+          "User-Agent": [
+            "RiotClient/43.0.1.4195386.4190634 rso-auth (Windows;10;;Professional, x64)"
+          ],
+          "Content-Type": ["application/json"],
+          "Accept-Encoding": ["gzip;q=1.0,deflate;q=0.6,identity;q=0.3"],
+          "Accept": ["*/*"]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": ["Fri, 28 Jan 2022 23:25:12 GMT"],
+          "Content-Type": ["application/json"],
+          "Content-Length": ["534"],
+          "Connection": ["keep-alive"],
+          "Access-Control-Allow-Origin": ["*"],
+          "Vary": ["Accept-Encoding"],
+          "Cf-Cache-Status": ["DYNAMIC"],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "X-Riotgames-Cdn": ["Cloudflare"],
+          "Set-Cookie": [
+            "__cf_bm=zU6db5_C.24bQUJJvR13mnjurGH24lelrSOHg_jqalw-1643412312-0-AYVgFoAZFmMif2eN7jZtmN3JHb/7F66VXoUneFPiSVdrnyFNCyZcKPMFph4VKm1EsERMIM97N1+DVBN8v9n3/NY=; path=/; expires=Fri, 28-Jan-22 23:55:12 GMT; domain=.riotgames.com; HttpOnly; Secure; SameSite=None"
+          ],
+          "Server": ["cloudflare"],
+          "Cf-Ray": ["6d4dfa8baf095037-WAW"]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"entitlements_token\":\"xxxxx\"}"
+        }
+      },
+      "recorded_at": "Fri, 28 Jan 2022 23:25:13 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://auth.riotgames.com/userinfo",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "RiotClient/43.0.1.4195386.4190634 rso-auth (Windows;10;;Professional, x64)"
+          ],
+          "Authorization": ["Bearer xxxxx"],
+          "Cookie": [
+            "__cf_bm=M4f7g4Hwzhombr7Q.GsEcI2..CIMgwvA_.hny0Ej4QQ-1643412311-0-AQzWbh3zeThanPzR9icAb2/WRoZtaMHe3G5SsASPy/nj478d5NVPieqtzH9qEFo3MOxhiYON4jB8VEjB5GQVBCY=; clid=ec1; csid=xxxxx; ssid=xxxxx; tdid=xxxxx"
+          ],
+          "Accept-Encoding": ["gzip;q=1.0,deflate;q=0.6,identity;q=0.3"],
+          "Accept": ["*/*"]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": ["Fri, 28 Jan 2022 23:25:13 GMT"],
+          "Content-Type": ["application/json; charset=utf-8"],
+          "Transfer-Encoding": ["chunked"],
+          "Connection": ["keep-alive"],
+          "Cache-Control": [
+            "no-store, no-cache, must-revalidate, proxy-revalidate"
+          ],
+          "Etag": ["W/\"42-lDJ5nQQp67c1ZHfrJE1Jx2SByLM\""],
+          "Expires": ["0"],
+          "Pragma": ["no-cache"],
+          "Surrogate-Control": ["no-store"],
+          "Vary": ["Accept-Encoding"],
+          "X-Content-Type-Options": ["nosniff"],
+          "X-Download-Options": ["noopen"],
+          "X-Fapi-Interaction-Id": ["d69054dc-2da8-4f32-9b63-b01fc67f5444"],
+          "Cf-Cache-Status": ["DYNAMIC"],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "X-Riotgames-Cdn": ["Cloudflare"],
+          "Server": ["cloudflare"],
+          "Cf-Ray": ["6d4dfa8c6cd3f2a0-WAW"]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"sub\":\"xxxxx\",\"jti\":\"_QVmGR2ZTII\"}"
+        }
+      },
+      "recorded_at": "Fri, 28 Jan 2022 23:25:14 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://pd.xxxxx.a.pvp.net/store/v2/storefront/xxxxx",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "Authorization": ["Bearer xxxxx"],
+          "User-Agent": [
+            "RiotClient/43.0.1.4195386.4190634 rso-auth (Windows;10;;Professional, x64)"
+          ],
+          "X-Riot-Entitlements-Jwt": ["xxxxx"],
+          "Accept-Encoding": ["gzip;q=1.0,deflate;q=0.6,identity;q=0.3"],
+          "Accept": ["*/*"]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Date": ["Fri, 28 Jan 2022 23:25:13 GMT"],
+          "Content-Type": ["application/json"],
+          "Transfer-Encoding": ["chunked"],
+          "Connection": ["keep-alive"],
+          "Access-Control-Allow-Origin": ["*"],
+          "Cf-Cache-Status": ["DYNAMIC"],
+          "Expect-Ct": [
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+          ],
+          "Server": ["cloudflare"],
+          "Cf-Ray": ["6d4dfa8e3ae85049-WAW"]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"FeaturedBundle\":{\"Bundle\":{\"ID\":\"66def9e4-cea3-4315-87b5-1a0d3859cee5\",\"DataAssetID\":\"ab83f73d-485f-e010-8ea0-24b538468a1a\",\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"Items\":[{\"Item\":{\"ItemTypeID\":\"dd3bf334-87f3-40bd-b043-682a57a8dc3a\",\"ItemID\":\"6607dba5-4cb8-d860-3010-708bcbcbe808\",\"Amount\":2},\"BasePrice\":475,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":1,\"DiscountedPrice\":0,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"3f296c07-64c3-494c-923b-fe692a4fa1bd\",\"ItemID\":\"66554177-4970-fea5-22d2-c0bd8514888c\",\"Amount\":1},\"BasePrice\":375,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":1,\"DiscountedPrice\":0,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"d5f120f8-ff8c-4aac-92ea-f2b5acbe9475\",\"ItemID\":\"e428e9d5-4912-ffac-031b-f293375cd14d\",\"Amount\":1},\"BasePrice\":325,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":1,\"DiscountedPrice\":0,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"e7c63390-eda7-46e0-bb7a-a6abdacd2433\",\"ItemID\":\"544ddf0f-42c6-e410-c9db-fc8b3b2c84d4\",\"Amount\":1},\"BasePrice\":2475,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":0,\"DiscountedPrice\":2475,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"e7c63390-eda7-46e0-bb7a-a6abdacd2433\",\"ItemID\":\"a7cf8684-41a0-3dd4-e30c-6f9b4b34e635\",\"Amount\":1},\"BasePrice\":2475,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":0,\"DiscountedPrice\":2475,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"e7c63390-eda7-46e0-bb7a-a6abdacd2433\",\"ItemID\":\"12831559-44ee-c708-b97c-29a43938e3cd\",\"Amount\":1},\"BasePrice\":2475,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":0,\"DiscountedPrice\":2475,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"e7c63390-eda7-46e0-bb7a-a6abdacd2433\",\"ItemID\":\"5eb7515f-40a1-2f15-de03-c9a024664737\",\"Amount\":1},\"BasePrice\":2475,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":0,\"DiscountedPrice\":2475,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"e7c63390-eda7-46e0-bb7a-a6abdacd2433\",\"ItemID\":\"47897cd1-49e2-da3f-4a8f-b6a1e84b0dd0\",\"Amount\":1},\"BasePrice\":4950,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":1,\"DiscountedPrice\":0,\"IsPromoItem\":false}],\"DurationRemainingInSeconds\":426886,\"WholesaleOnly\":false},\"Bundles\":[{\"ID\":\"66def9e4-cea3-4315-87b5-1a0d3859cee5\",\"DataAssetID\":\"ab83f73d-485f-e010-8ea0-24b538468a1a\",\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"Items\":[{\"Item\":{\"ItemTypeID\":\"dd3bf334-87f3-40bd-b043-682a57a8dc3a\",\"ItemID\":\"6607dba5-4cb8-d860-3010-708bcbcbe808\",\"Amount\":2},\"BasePrice\":475,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":1,\"DiscountedPrice\":0,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"3f296c07-64c3-494c-923b-fe692a4fa1bd\",\"ItemID\":\"66554177-4970-fea5-22d2-c0bd8514888c\",\"Amount\":1},\"BasePrice\":375,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":1,\"DiscountedPrice\":0,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"d5f120f8-ff8c-4aac-92ea-f2b5acbe9475\",\"ItemID\":\"e428e9d5-4912-ffac-031b-f293375cd14d\",\"Amount\":1},\"BasePrice\":325,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":1,\"DiscountedPrice\":0,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"e7c63390-eda7-46e0-bb7a-a6abdacd2433\",\"ItemID\":\"544ddf0f-42c6-e410-c9db-fc8b3b2c84d4\",\"Amount\":1},\"BasePrice\":2475,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":0,\"DiscountedPrice\":2475,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"e7c63390-eda7-46e0-bb7a-a6abdacd2433\",\"ItemID\":\"a7cf8684-41a0-3dd4-e30c-6f9b4b34e635\",\"Amount\":1},\"BasePrice\":2475,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":0,\"DiscountedPrice\":2475,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"e7c63390-eda7-46e0-bb7a-a6abdacd2433\",\"ItemID\":\"12831559-44ee-c708-b97c-29a43938e3cd\",\"Amount\":1},\"BasePrice\":2475,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":0,\"DiscountedPrice\":2475,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"e7c63390-eda7-46e0-bb7a-a6abdacd2433\",\"ItemID\":\"5eb7515f-40a1-2f15-de03-c9a024664737\",\"Amount\":1},\"BasePrice\":2475,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":0,\"DiscountedPrice\":2475,\"IsPromoItem\":false},{\"Item\":{\"ItemTypeID\":\"e7c63390-eda7-46e0-bb7a-a6abdacd2433\",\"ItemID\":\"47897cd1-49e2-da3f-4a8f-b6a1e84b0dd0\",\"Amount\":1},\"BasePrice\":4950,\"CurrencyID\":\"85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741\",\"DiscountPercent\":1,\"DiscountedPrice\":0,\"IsPromoItem\":false}],\"DurationRemainingInSeconds\":426886,\"WholesaleOnly\":false}],\"BundleRemainingDurationInSeconds\":426886},\"SkinsPanelLayout\":{\"SingleItemOffers\":[\"f35f6e13-4b7b-da38-c0de-5c91fffd584b\",\"df639108-4e9d-7fc1-51da-4dbb810ba011\",\"6e37a33a-416e-fcc0-ceb8-7784e18fbfe9\",\"4e4ebb8d-41d0-c326-595a-1f9b257e91fa\"],\"SingleItemOffersRemainingDurationInSeconds\":2086}}\n"
+        }
+      },
+      "recorded_at": "Fri, 28 Jan 2022 23:25:14 GMT"
+    }
+  ],
+  "recorded_with": "VCR 6.0.0"
+}

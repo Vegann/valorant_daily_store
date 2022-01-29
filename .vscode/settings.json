@@ -1,0 +1,4 @@
+{
+  "ruby.format": "standard",
+  "ruby.lint": { "standard": true, "rubocop": false }
+}
