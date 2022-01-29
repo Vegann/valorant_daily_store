@@ -7,7 +7,10 @@ module.exports.readVersion = function (contents) {
 }
 
 module.exports.writeVersion = function (contents, version) {
-  const newContent = contents.replace(/VERSION = "(\d+\.\d+\.\d+)"/, version)
+  const newContent = contents.replace(
+    /VERSION = "(\d+\.\d+\.\d+)"/,
+    `VERSION = "${version}"`
+  )
 
   return newContent
 }
