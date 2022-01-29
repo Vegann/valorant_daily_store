@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/valorant_daily_store.svg)](https://rubygems.org/gems/valorant_daily_store)
 # Valorant Daily Store
 
 This gem will let you see your daily store without opening the game
