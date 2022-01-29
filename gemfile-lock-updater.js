@@ -9,7 +9,7 @@ module.exports.readVersion = function (contents) {
 module.exports.writeVersion = function (contents, version) {
   const newContent = contents.replace(
     /valorant_daily_store \(\d+\.\d+\.\d+\)/,
-    `VERSION = "${version}"`
+    `valorant_daily_store (${version})`
   )
 
   return newContent
