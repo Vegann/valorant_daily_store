@@ -10,5 +10,11 @@
     { "type": "test", "hidden": true }
   ],
   "commitUrlFormat": "https://github.com/Vegann/valorant_daily_store/commits/{{hash}}",
-  "compareUrlFormat": "https://github.com/Vegann/valorant_daily_store/compare/{{previousTag}}...{{currentTag}}"
+  "compareUrlFormat": "https://github.com/Vegann/valorant_daily_store/compare/{{previousTag}}...{{currentTag}}",
+  "bumpFiles": [
+    {
+      "filename": "./lib/valorant_daily_store/version.rb",
+      "updater": "gem-version-updater.js"
+    }
+  ]
 }
