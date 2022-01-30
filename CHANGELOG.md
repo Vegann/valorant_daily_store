@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/Vegann/valorant_daily_store/compare/v1.0.4...v1.0.5) (2022-01-30)
+
+
+### Bug Fixes
+
+* dont require pry in the skin class ([df22e48](https://github.com/Vegann/valorant_daily_store/commits/df22e485d5fadac7853c4c0f06f6d24f96c4fd4a))
+
 ### [1.0.4](https://github.com/Vegann/valorant_daily_store/compare/v1.0.3...v1.0.4) (2022-01-29)
 
 
