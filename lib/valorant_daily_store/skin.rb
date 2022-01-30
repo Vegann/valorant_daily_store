@@ -1,4 +1,3 @@
-require "pry"
 module ValorantDailyStore
   class Skin
     def initialize(name:, price:, photo:, video:)
