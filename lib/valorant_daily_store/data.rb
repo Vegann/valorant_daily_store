@@ -31,7 +31,12 @@ module ValorantDailyStore
     private
 
     def set_starting_cookies
-      response = auth_conn.post("/api/v1/authorization", {nonce: "1", client_id: "play-valorant-web-prod", redirect_uri: "https://playvalorant.com/opt_in", response_type: "token id_token"})
+      response = auth_conn.post("/api/v1/authorization", {
+        nonce: "1",
+        client_id: "play-valorant-web-prod",
+        redirect_uri: "https://playvalorant.com/opt_in",
+        response_type: "token id_token"
+      })
       if response.status != 200
         raise AuthorizationCookiesError
       end
@@ -124,7 +129,9 @@ module ValorantDailyStore
         builder.response :json
         builder.request :json
         builder.adapter Faraday.default_adapter
-        builder.headers["User-Agent"] = "RiotClient/43.0.1.4195386.4190634 rso-auth (Windows;10;;Professional, x64)"
+        builder.headers["Host"] = "auth.riotgames.com"
+        builder.headers["Referer"] = "https://hoppscotch.io/"
+        builder.headers["Origin"] = "https://hoppscotch.io"
       end
     end
 
