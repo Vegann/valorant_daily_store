@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/Vegann/valorant_daily_store/compare/v1.0.5...v1.0.6) (2022-07-17)
+
+
+### Bug Fixes
+
+* some additional headers have to be passed to retrieve the cookie ([3525428](https://github.com/Vegann/valorant_daily_store/commits/352542839434c250d4e16cfab836c272542f0267))
+* version in package.json ([2418763](https://github.com/Vegann/valorant_daily_store/commits/24187639d54f12aeed49e870b941e1a0de5eca7e))
+
 ### [1.0.1](https://github.com/Vegann/valorant_daily_store/compare/v1.0.5...v1.0.1) (2022-07-17)
 
 
