@@ -1,6 +1,6 @@
 {
   "name": "valorant_daily_store",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Simple gem to get your daily valorant store",
   "private": true,
   "directories": {
